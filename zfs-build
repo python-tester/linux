@@ -1,0 +1,6 @@
+#!/bin/sh
+
+modprobe zfs
+zpool  create tank1 -o ashift=12 raidz sd{b..m} -f
+zfs set mountpoint=/tank1 tank1
+zfs set compression=lz4 tank1
