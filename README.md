@@ -1,2 +1,3 @@
-# linux
-常见错误解决办法以及经常使用的知识点
+# linux shell and tools
+included some shell scripts and tools(example：vim's usage and so on)
+
